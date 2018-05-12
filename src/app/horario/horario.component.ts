@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HorarioComponent implements OnInit {
 
-  hora = '';
+  hora:String;
 
   constructor() { }
 
