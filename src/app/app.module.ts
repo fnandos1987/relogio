@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HorarioComponent } from './horario/horario.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HorarioComponent
   ],
   imports: [
     BrowserModule
